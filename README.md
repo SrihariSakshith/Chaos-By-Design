@@ -1,7 +1,3 @@
-Here’s your corrected and polished README file with better formatting and clarity:  
-
----
-
 # **Chaos by Design: The Ultimate Frustration Machine**  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
