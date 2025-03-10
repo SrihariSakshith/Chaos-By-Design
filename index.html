@@ -301,16 +301,23 @@
                 event.preventDefault(); // Prevent form submission
 
                 const responses = [
-                    "Your message has been sent... into the void!",
-                    "Thanks! We'll get back to you... never.",
-                    "Message received! Just kidding.",
-                    "Error 404: Your message not found.",
-                    "Processing... Please wait (forever)",
-                    "Submitting... (just kidding, it's a trap)",
-                    "Oops! Something went wrong (on purpose)",
-                    "Redirecting to a page that doesn't exist...",
-                    "Message delivered successfully to /dev/null"
+                    "Your message has been sent... straight into the abyss. Hope it finds peace there.",
+                    "Thanks! We'll get back to you as soon as time travel is invented.",
+                    "Message received! We've stored it safely in a black hole.",
+                    "Error 418: I'm a teapot. Your message has been brewed into oblivion.",
+                    "Processing... Please wait... (and wait... and wait... forever).",
+                    "Submitting... oh wait, my bad, I accidentally deleted it.",
+                    "Oops! Something went wrong. Probably your fault, but we'll never tell.",
+                    "Your message is now on its way to the shadow realm. Good luck retrieving it!",
+                    "Message delivered successfully to a parallel universe where we care.",
+                    "Your request is very important to us. Just like the dozens we've ignored before!",
+                    "Thanks for reaching out! Unfortunately, we’ve reached our daily message quota (of 0).",
+                    "We appreciate your patience! Please allow 6-8 business decades for a response.",
+                    "Your message has been forwarded to the trash folder. Don't call us, we won't call you.",
+                    "Congratulations! You've just won a chance to be ignored indefinitely.",
+                    "We heard you! But did we listen? That’s the real mystery."
                 ];
+
 
                 const randomIndex = Math.floor(Math.random() * responses.length);
                 alert(responses[randomIndex]);
@@ -318,10 +325,16 @@
                 // 50% chance to redirect to a random website
                 if (Math.random() < 0.5) {
                     const randomWebsites = [
-                        "https://www.example.com",
-                        "https://www.wikipedia.org",
-                        "https://www.google.com",
-                        "https://www.youtube.com"
+                        "https://theuselessweb.com/",
+                        "https://pointerpointer.com/",
+                        "https://cat-bounce.com/",
+                        "https://www.rrrather.com/",
+                        "https://www.sanger.dk/",
+                        "https://mondrianandme.com/",
+                        "https://www.staggeringbeauty.com/",
+                        "https://www.trypap.com/",
+                        "https://www.ninjaflex.com/",
+                        "https://www.fallingfalling.com/"
                     ];
                     const randomWebsite = randomWebsites[Math.floor(Math.random() * randomWebsites.length)];
                     window.location.href = randomWebsite;
