@@ -1,7 +1,5 @@
 # Chaos by Design: The Ultimate Frustration Machine
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Description
 
 This website is a deliberately terrible example of UI/UX design, created for the "Chaos by Design" challenge. Its purpose is to frustrate and annoy users through intentionally broken design principles while remaining technically functional.  **Do not use this as a template for real projects!**
