@@ -81,26 +81,4 @@ Disclaimer
 
 This website is intended for demonstration purposes only. It serves as a humorous (though frustrating) illustration of bad UI/UX design. Do not use this code as a basis for a real website. If you do, you might be responsible for permanently scarring the internet.
 
-Key changes for a GitHub README:
-
-*   **Markdown Format:**  Uses markdown syntax.
-*   **License Badge:** Adds a badge to indicate the project's license.
-*   **Clone Instructions:** Provides instructions for cloning the repository.
-*   **Separate CSS File (Implied):**  Mentions a `style.css` file (even though the code so far has all the CSS inline).  You might want to actually separate the CSS into a `style.css` file to make the project structure cleaner.
-*   **Contributing Section:**  A short note on contributions (although, as noted, they are unlikely).
-*   **Live Demo Link:**  Placeholder for a link to a live demo, if you deploy the website.  Replace `Replace with a link to a live demo if you have one` with the actual URL.
-*   **File Structure:** Assumes an `index.html` file and a `style.css` file in the main directory. You can create these as separate files, copying the relevant code.
-*   **Updated Disclaimer:** Adds slight humor to the disclaimer.
-
-To use this README:
-
-1.  Save it as `README.md` in the root directory of your GitHub repository.
-2.  Create a separate file named `style.css` and move all the CSS styles to that file.  Link it in your HTML as follows:
-    ```html
-    <head>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    ```
-3.  Create a LICENSE file (if you have one).
-4.  Commit and push your changes to GitHub.
 
